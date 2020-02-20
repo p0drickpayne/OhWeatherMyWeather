@@ -69,11 +69,21 @@
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="barTintColor" name="ColorOrange"/>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz8-FG-Bcu">
+                                <rect key="frame" x="126" y="396" width="189" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="iCH-Kg-lKG"/>
+                    <connections>
+                        <outlet property="showTemp" destination="Dz8-FG-Bcu" id="CuD-hp-27q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -190,7 +200,7 @@
         <image name="magnifyingglass" catalog="system" width="64" height="56"/>
         <image name="star" catalog="system" width="64" height="58"/>
         <namedColor name="ColorOrange">
-            <color red="1" green="0.54500000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.54500001668930054" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
