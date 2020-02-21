@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-class SearchNavigationController: UINavigationController, UISearchResultsUpdating {
+class SearchNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    func updateSearchResults(for searchController: UISearchController) {
+   /* func updateSearchResults(for searchController: UISearchController) {
         <#code#>
-    }
+    }*/
 }
 /*extension SearchNavigationController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {

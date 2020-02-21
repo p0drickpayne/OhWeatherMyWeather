@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Search Navigation Controller-->
+        <!--View Controller-->
         <scene sceneID="954-kb-Qrp">
             <objects>
-                <viewController id="VCt-1P-7V6" customClass="SearchNavigationController" customModule="OhWeatherMyWeather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VCt-1P-7V6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SqL-Ad-c2L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
