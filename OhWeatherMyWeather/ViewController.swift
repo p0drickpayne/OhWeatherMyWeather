@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        currentTemprature()
         
         print(userName!)
         print(passWord!)
@@ -29,12 +30,12 @@ class ViewController: UIViewController {
         gradientLayer.colors = [UIColor.yellow.cgColor,UIColor(named: "ColorOrange")?.cgColor as Any]
         
         self.view.layer.insertSublayer(gradientLayer, at: 0)
-        currentTemprature()
+        
         //self.navigationController!.toolbar.barTintColor = UIColor(named: "ColorOrange")
         
         
     }
-   // @IBAction func homeTapped(_ sender: Any) {
+    //@IBAction func homeTapped(_ sender: Any) {
     func currentTemprature (){
                print("Get joke button pressed")
                let weather = WeatherAPI()
